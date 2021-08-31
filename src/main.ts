@@ -3,7 +3,7 @@ import {Quasar} from 'quasar'
 import quasarUserOptions from '@/infra/config/quasar/quasar-user-options'
 import router from '@/infra/config/router'
 import {key, store} from '@/infra/config/store'
-import App from '@/infra/presentation/Main/index.vue'
+import App from '@/components/Main/index.vue'
 
 createApp(App)
     .use(store, key)

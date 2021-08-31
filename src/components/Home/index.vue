@@ -13,8 +13,8 @@
 </template>
 
 <script lang="ts">
-import {defineComponent} from "vue";
-import Item from "@/infra/presentation/Item/index.vue";
+import {defineComponent} from 'vue';
+import Item from '@/components/Item/index.vue';
 
 const Home = defineComponent({
   components: {Item},

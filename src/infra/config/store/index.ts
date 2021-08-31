@@ -1,12 +1,12 @@
-import {InjectionKey} from "vue";
+import {InjectionKey} from 'vue';
 import {createStore, Store, useStore as vuexUseStore} from 'vuex'
 import createPersistedState from 'vuex-persistedstate'
 // @ts-ignore
 import Cookies from 'js-cookie'
 
-import User from "@/domain/User";
-import Cart from "@/domain/Cart";
-import CartItem from "@/domain/CartItem";
+import User from '@/domain/User';
+import Cart from '@/domain/Cart';
+import CartItem from '@/domain/CartItem';
 
 export interface State {
     user: User | null,

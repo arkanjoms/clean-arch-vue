@@ -8,8 +8,8 @@
 </template>
 
 <script lang="ts">
-import CartItem from "@/infra/presentation/Cart/CartItem/index.vue";
-import {defineComponent} from "vue";
+import {defineComponent} from 'vue';
+import CartItem from '@/components/Cart/CartItem/index.vue';
 
 const Cart = defineComponent({
   components: {CartItem}

@@ -1,6 +1,6 @@
-import User from "./User";
-import CartItem from "@/domain/CartItem";
-import Coupon from "@/domain/Coupon";
+import User from '@/domain/User';
+import CartItem from '@/domain/CartItem';
+import Coupon from '@/domain/Coupon';
 
 export default class Cart {
     _user: User | null;

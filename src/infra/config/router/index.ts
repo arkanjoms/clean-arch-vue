@@ -1,5 +1,5 @@
 import {createRouter, createWebHistory} from 'vue-router';
-import Home from '@/infra/presentation/Home/index.vue';
+import Home from '@/components/Home/index.vue';
 
 const routes = [
     {
@@ -10,12 +10,12 @@ const routes = [
     {
         path: '/order',
         name: 'Order',
-        component: () => import(/* webpackChunkName: "order" */ '@/infra/presentation/OrderHistory/index.vue')
+        component: () => import(/* webpackChunkName: "order" */ '@/components/OrderHistory/index.vue')
     },
     {
         path: '/order-history',
         name: 'OrderHistory',
-        component: () => import(/* webpackChunkName: "orderHistory" */ '@/infra/presentation/OrderHistory/index.vue')
+        component: () => import(/* webpackChunkName: "orderHistory" */ '@/components/OrderHistory/index.vue')
     }
 ];
 

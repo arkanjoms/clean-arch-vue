@@ -30,8 +30,8 @@
 
 <script lang="ts">
 import {defineComponent, ref} from 'vue'
-import LoginDialog from "@/infra/presentation/LoginDialog/index.vue";
-import Cart from "@/infra/presentation/Cart/index.vue";
+import LoginDialog from '@/components/LoginDialog/index.vue';
+import Cart from '@/components/Cart/index.vue';
 
 const Main = defineComponent({
   components: {Cart, LoginDialog},
